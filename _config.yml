@@ -1,0 +1,29 @@
+title: "Yale Data Science"
+description: "Data science collective at Yale"
+about: "Blogposts and projects related to data science, machine learning"
+location: "New Haven, CT"
+email: yaledatascience@gmail.com
+baseurl: ""
+url: "http://yaledatascience.ml"
+twitter_username: yaledatascience
+github_username:  YaleDataScience
+
+# google analytics tracking code, please change the value
+g_analytics: "UA-55297699-1"
+
+# language settings
+close_btn: "Close"
+home_btn: "Home"
+projects_btn: "Projects"
+posts_btn: "Posts"
+imprint_btn: "Info"
+name_badge: "Ein Artikel von"
+rss_badge: "Feed"
+
+# build settings
+markdown: kramdown
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md

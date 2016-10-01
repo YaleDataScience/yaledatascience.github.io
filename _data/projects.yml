@@ -1,0 +1,3 @@
+- name: Wavenet (in progress)
+  link: "https://github.com/yaledatascience/wavenet"
+  description: "https://deepmind.com/blog/wavenet-generative-model-raw-audio/"
