@@ -70,7 +70,7 @@ All of these cases are taken care of. Words are separated from one another by wh
 
 One last step of preprocessing: we're only going to consider courses whose demand is above 50. Check out the following [Gaussian kernel density estimate](http://docs.ggplot2.org/current/geom_histogram.html) of the distribution of course demand. Yale offers a lot of small courses which aren't geared towards large crowds. We aren't interested in these.
 
-<img src="/assets/images/demandkde.png" alt="Demand KDE" style="width: 640px;"/>
+<img src="/images/posts/demandkde.png" alt="Demand KDE" style="width: 640px;"/>
 
 To do the modeling, we're going to work in R. The main script is **[enroll.R](https://github.com/YaleDataScience/enroll/blob/master/enroll.R)**; note that you'll need to modify the file paths. The [*lda* package](http://cran.r-project.org/web/packages/lda/lda.pdf) implements sLDA quickly and is endorsed by David Blei. It also comes with tools for text processing, namely the *lexicalize* function.
 
@@ -82,7 +82,7 @@ Picking the right parameters for your topic model can seem like more art than sc
 
 We can visualize the model's performance under different parameter sets by inspecting the plot produced by the script. Here's an example:
 
-<img src="/assets/images/sldaperf.png" alt="sLDA Performance" style="width: 640px;"/>
+<img src="/images/posts/sldaperf.png" alt="sLDA Performance" style="width: 640px;"/>
 
 Ah! That's confusing. Not really. Each color represents a different number of topics, and each point represents the RMSE for a different trial (i.e. parameter set). It looks like a 12 topic model always performs well, and the best Dirichlet priors are 10 for document/topic smoothing and 1 for topic/term smoothing.
 
@@ -97,7 +97,7 @@ If you read up on LDA, you'll recall that a topic is represented by a probabilit
 
 Recall that LDA and sLDA are non-deterministic, and thus the topics change from trial to trial. However, the general content of the topics are generally stable. Most notably, the most positive topic is always the one represented by the word cloud below. No surprises here. (Note: the terms have not been unstemmed, so they might be missing an *s*, an *ing*, or an *e* at the end.)
 
-<img src="/assets/images/cloud.png" alt="Topic cloud" style="width: 640px;"/>
+<img src="/images/posts/cloud.png" alt="Topic cloud" style="width: 640px;"/>
 
 Next, we present a list of terms given high weights in topics that strongly effect course demand. Specifically, they are within the top 25 scoring terms in the four strongly negative or three strongly positive topics (leaving out the one presented above). Once again, they have been censored for names of professors and courses. Terms were also manually unstemmed and stopwords were added where it was obvious.
 
