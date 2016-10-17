@@ -1,13 +1,12 @@
 ---
+layout: post
 title: 'Learning-To-Learn: RNN-based optimization'
-tags:
-  - neuralnet
-  - optimization
-categories: []
 date: 2016-10-17 09:46:43
 ---
 
 Around the middle of June, this paper came up: [Learning to learn by gradient descent by gradient descent](https://arxiv.org/pdf/1606.04474v1.pdf). For someone who's interested in optimization and neural network, I think this paper is particularly interesting. The main idea is to use neural network to tune the learning rate for gradient descent.
+
+
 
 ## Summary of the paper
 
@@ -110,7 +109,10 @@ The loss $L(\phi)$ can be computed by double-for loop. For each loop, a differen
 
 
 
+
+
 # Results
+
 
 {% asset_img  output_38_1.png title %}
 
