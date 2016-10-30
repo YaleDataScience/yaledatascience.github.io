@@ -173,3 +173,5 @@ lower bound $\mathcal{L} = \log p(x) - KL(Q(Z|X)||P(Z|X)) = \mathbb{E}_Q\big[ \l
 ## Adversarial Autoencoders
 
 [https://arxiv.org/abs/1511.05644](https://arxiv.org/abs/1511.05644)
+
+### References
