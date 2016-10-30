@@ -90,6 +90,7 @@ param = param + g
 {% endhighlight %}
 
 The objective function is:
+
 $$
 \begin{aligned}
 L(\phi) &= \mathbb{E}_f [ \sum_{t=1}^T w_t f(\theta_t) ] \\

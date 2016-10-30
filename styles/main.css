@@ -208,6 +208,9 @@ a{
 .my-text-body a{
     font-size: 16px;
 }
+.my-text-body a.footnote{
+    font-size: 10px;
+}
 .my-text-body a:hover{
     background: #c9f6ff;
     border: 1px solid #c9f6ff;
@@ -218,7 +221,18 @@ a{
     border: 1px solid #c9dcff;
     border-radius: 3px;
 }
-
+.my-text-body ul li{
+    list-style: disc;
+}
+.my-text-body ul, ol > li{
+    padding: 0px 25px;
+}
+.my-text-body ul li ul li{
+    list-style: circle;
+}
+.my-text-body ul li ul li ul li{
+    list-style: square;
+}
 .my-twitter-link:hover{
     color: #1da0f2;
 }
@@ -229,7 +243,7 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     margin-bottom: 20px;
 }
