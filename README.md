@@ -1,5 +1,5 @@
 # Our website/blog
-:point_right: https://yaledatascience.ml :point_left:
+:point_right: http://yaledatascience.ml :point_left:
 
 Theme from (http://himsel.me)
 
