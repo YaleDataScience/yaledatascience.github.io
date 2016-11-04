@@ -236,6 +236,9 @@ a{
 .my-twitter-link:hover{
     color: #1da0f2;
 }
+.my-flipboard-link:hover{
+    color: #e02828;
+}
 .my-github-link:hover{
     color: #e19e2f;
 }
