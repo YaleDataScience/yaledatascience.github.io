@@ -1,3 +1,7 @@
-- name: Wavenet (in progress)
+- name: Wavenet
   link: "https://github.com/yaledatascience/wavenet"
   description: "https://deepmind.com/blog/wavenet-generative-model-raw-audio/"
+
+- name: Open Projects
+  link: "http://yaledatascience.github.io/open_projects.html"
+  description: Projects to work on
