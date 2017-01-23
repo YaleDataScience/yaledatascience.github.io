@@ -2,12 +2,12 @@
 layout: "post"
 title: "Guide to Autoencoders"
 date: 2016-10-29 19:45:00
-tags: autoencoders, neural networks
+tags: autoencoders, neural networks, auto-encoders, tutorial, guide
 ---
 
 by [Krishnan Srinivasan](http://krishpop.xyz/)
 
-(WIP)
+(A tutorial on autoencoders)
 
 ### Useful Resources
 
