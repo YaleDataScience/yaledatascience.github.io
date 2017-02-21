@@ -2,12 +2,12 @@
 layout: "post"
 title: "Guide to Autoencoders"
 date: 2016-10-29 19:45:00
-tags: autoencoders, neural networks
+tags: autoencoders, neural networks, auto-encoders, tutorial, guide
 ---
 
 by [Krishnan Srinivasan](http://krishpop.xyz/)
 
-(WIP)
+(A tutorial on autoencoders)
 
 ### Useful Resources
 
@@ -19,19 +19,19 @@ by [Krishnan Srinivasan](http://krishpop.xyz/)
 
 ### Introduction
 
-We aren't going to spend too much time on just autoencoders because they are not as widely used today due to do the
+We aren't going to spend too much time on just autoencoders because they are not as widely used today due to the
 development of better models. However, we will cover them because they are essential to understanding the later topics
 of this guide.
 
-The premise is this. You are trying to create a neural network that can efficiently encode your input data in a lower
-dimension, which it is then able to decode back into the original input, with losing as little of the original input as
-possible. The usefulness of doing this is mainly this: imagine your input data is very high dimensional, but in
-reality, the only valid inputs you would ever receive are in a subspace of this high dimension. In fact, they exist in
-a manifold of this space, which can be spanned using fewer dimensions, and these dimensions can have properties that
-are useful to learn, as they capture some intrinsic/invariant aspect of the input space.
+The premise: you are trying to create a neural network that can efficiently encode your input data in a lower dimensional encoding,
+which it is then able to decode back into the original input, with losing as little of the original input as
+possible. This is useful for the following reason. Imagine your input data is very high dimensional, but in reality,
+the only valid inputs you would ever receive are in a subspace
+of this high dimension. In fact, they exist in a manifold of this space, which can be spanned using fewer dimensions, and these dimensions
+can have properties that are useful to learn, as they capture some intrinsic/invariant aspect of the input space.
 
 To achieve this dimensionality reduction, the autoencoder was introduced as an unsupervised learning way of attempting
-to reconstruct a given input with fewer dimensions, which it would also learn to encode the original input into.
+to reconstruct a given input with fewer bits of information.
 
 ### Basic Architecture
 
