@@ -32,7 +32,7 @@ On the other hand, the Word2Vec algorithms are based on local information. The i
 
 Images for Word2Vec from [Rong 2016](https://arxiv.org/pdf/1411.2738.pdf).
 
-<img src="https://jungokasai.github.io/images/SKIP.jpeg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="https://jungokasai.github.io/images/CBOW.jpeg" style="float: left; width: 38%; margin-right: 1%; margin-bottom: 0.7em;">  
+<img src="https://jungokasai.github.io/images/SKIP.jpeg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="https://jungokasai.github.io/images/SKIP.jpeg" style="float: left; width: 38%; margin-right: 1%; margin-bottom: 0.7em;">  
 <div style="clear:both"></div>
 
 <!--<img src="/images/SKIP.jpeg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="/images/CBOW.jpeg" style="float: left; width: 38%; margin-right: 1%; margin-bottom: 0.7em;"> <p style="clear: both;"> -->
